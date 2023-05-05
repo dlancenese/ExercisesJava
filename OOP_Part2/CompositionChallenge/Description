@@ -1,0 +1,3 @@
+Challenge was to make a program that could automate some of the morning activities if you had a fully automated kitchen.
+The three implemented were Brewing coffee, Running the dishwasher, and ordering food from the fridge.
+This was a exercise to use Composition instead of inheritance.
