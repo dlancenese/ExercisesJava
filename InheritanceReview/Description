@@ -1,0 +1,4 @@
+This is my review for Inheritance. A little project that I did to help me get used to using the extends keyword.
+A Basic Worker system that uses a salaried worker and a hourly worker. 
+Splits up into a employee class that holds information like a Id number.
+Then splits into whether or not you are paid hourly or paid a salary.
