@@ -1,1 +1,22 @@
 A challenge exercise using encapsulation
+Main method inputs: 
+        Printer duplex = new Printer(50,true);
+        
+        System.out.println("initial page count = " + duplex.getPagesPrinted());
+        int pagesPrinted = duplex.printPages(5);
+        System.out.printf("Current Job Pages: %d, Printer Total: %d %n",
+                pagesPrinted, duplex.getPagesPrinted());
+                
+        pagesPrinted = duplex.printPages(10);
+        System.out.printf("Current Job Pages: %d, Printer Total: %d %n",
+                pagesPrinted, duplex.getPagesPrinted());
+
+        Printer printer = new Printer(100, false);
+        
+        pagesPrinted = printer.printPages(5);
+        System.out.printf("Current Job Pages: %d, Printer Total: %d %n",
+                pagesPrinted, printer.getPagesPrinted());
+                
+        pagesPrinted = printer.printPages(10);
+        System.out.printf("Current Job Pages: %d, Printer Total: %d %n",
+                pagesPrinted, printer.getPagesPrinted());
